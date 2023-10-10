@@ -11,6 +11,11 @@ if (PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
 endif()
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# Don't use compiler specific extensions
+set(CMAKE_CXX_EXTENSIONS OFF)
+
 #project(Hello CXX) # don't need the LANGUAGES label unless other labels are used
 add_executable(Hello hello.cpp)
 
