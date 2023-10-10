@@ -1,4 +1,11 @@
 cmake_minimum_required(VERSION 3.22)
 project(Hello)
+include (TestBigEndian)
+test_big_endian(IS_BIG_ENDIAN)
+if(IS_BIG_ENDIAN)
+  message("BIG_ENDIAN")
+else()
+  message("LITTLE_ENDIAN")
+endif()
 add_executable(Hello hello.cpp)
 

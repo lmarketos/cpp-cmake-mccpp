@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/louis/projects/cpp-cmake-mccpp/ch3",
+  "command": "/usr/bin/c++  -I/home/louis/projects/cpp-cmake-mccpp/ch3/sub/.  -o CMakeFiles/Hello.dir/hello.cpp.o -c /home/louis/projects/cpp-cmake-mccpp/ch3/hello.cpp",
+  "file": "/home/louis/projects/cpp-cmake-mccpp/ch3/hello.cpp"
+},
+{
+  "directory": "/home/louis/projects/cpp-cmake-mccpp/ch3/sub",
+  "command": "/usr/bin/c++  -I/home/louis/projects/cpp-cmake-mccpp/ch3/sub/.  -o CMakeFiles/sub.dir/sub.cpp.o -c /home/louis/projects/cpp-cmake-mccpp/ch3/sub/sub.cpp",
+  "file": "/home/louis/projects/cpp-cmake-mccpp/ch3/sub/sub.cpp"
+}
+]
